@@ -312,7 +312,12 @@ section.Get-the-Zomato-app .Zomato-app-details img{
     width: 15%;
     margin-right: 20px;
 }
-
+footer{
+    margin-top: 50px;
+}
+footer .footer-logo{
+    width: 16%;
+}
 
 
 
