@@ -316,9 +316,14 @@ footer{
     margin-top: 50px;
 }
 footer .footer-logo{
-    width: 16%;
+    width: 26%;
 }
 
+/*---------------------------- footer -------------------*/
+
+footer .footer-list-row{
+    margin-top: 50px;
+}
 
 
 
