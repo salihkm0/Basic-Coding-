@@ -9,7 +9,7 @@ body{
     color: white;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(images/img-1.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(images/img-1.jpeg);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -32,8 +32,22 @@ nav button{
     outline: 0;
     background: #db0001;
     color: #fff;
-    height: 30px;
-    width: 80px;
-    border-radius: 5px;
-    font-weight: 600;
+    /* height: 30px;
+    width: 80px; */
+    border-radius: 4px;
+    /* font-weight: 600; */
+    padding: 7px 20px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+nav .language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+
+}
+nav .language-btn i{
+    margin-left: 10px;
 }
