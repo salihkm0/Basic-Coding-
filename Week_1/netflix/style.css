@@ -10,24 +10,24 @@ body{
 }
 header{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(images/img-1.jpeg);
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
     position: relative;
 }
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
-nav .logo{
+header nav .logo{
     width: 150px;
     cursor: pointer;
 }
-nav button{
+header nav button{
     border: 0;
     outline: 0;
     background: #db0001;
@@ -48,6 +48,96 @@ nav .language-btn{
     padding: 7px 10px;
 
 }
-nav .language-btn i{
+header nav .language-btn i{
     margin-left: 10px;
 }
+header .header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+header .header-content h1{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+header .header-content h4{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+header .header-content p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+header .header-content form{
+    margin-top: 10px;
+}
+header .header-content form input{
+    height: 60px;
+    width: 370px;
+    background: rgba(0, 0, 0, 0.53);
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    outline-color: #fff;
+    color: #fff;
+}
+header .header-content form input::placeholder{
+    color: rgb(193, 193, 193);
+}
+header .header-content form button{
+    height: 60px;
+    width: 180px;
+    background: #db0001;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    border: none;
+}
+.hr-line{
+    width: 100%;
+    height: 8px;
+    background: rgb(63, 63, 63);
+}
+section.Enjoy-on-your-TV{
+    padding: 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.Enjoy-on-your-TV .content h1{
+    font-size: 3rem;
+}
+section.Enjoy-on-your-TV .content p{
+    margin-top: 14px;
+    font-size: 1.5rem;
+}
+section.Enjoy-on-your-TV .image img{
+    width: 600px;
+}
+section.Asked-Questions{
+    text-align: center;
+}
+section.Asked-Questions h1{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
