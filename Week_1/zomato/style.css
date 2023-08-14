@@ -316,16 +316,80 @@ section.Get-the-Zomato-app .Zomato-app-details img{
     margin-top: 10px;
 }
 
+/*---------------------------- Explore -------------------*/
+
+section.Explore{
+    margin-top: 40px;
+}
+section.Explore h3{
+    font-size: 40px;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+}
+section.Explore .Explore-content{
+    margin-top: 30px;
+}
+section.Explore .Explore-content button{
+    width: 100%;
+    text-align: left;
+    height: 60px;
+    margin-top: 25px;
+    background: #fff;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 5px;
+    padding-left: 30px;
+    outline: none;
+    outline-color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+section.Explore .Explore-content button i{
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+section.Explore .Explore-content .collapse .card{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-cuisines-list li ,
+section.Explore .Explore-content .collapse .card ul.Explore-card-restaurant-types-list li{
+    display: inline-block;
+    margin-left: 10px;
+    list-style: disc;
+    color: rgb(148, 148, 148);
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-restaurant-list li{
+    display: inline-block;
+    margin-right: 100px;
+    color: rgb(148, 148, 148);
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-city-list li{
+    color: rgb(148, 148, 148);
+    display: inline-block;
+    margin-right: 100px;
+}
+section.Explore .Explore-content .collapse .card ul.Explore-card-city-list li a{
+    text-decoration: underline;
+    color: #000;
+}
 /*---------------------------- footer -------------------*/
 
 footer{
     margin-top: 50px;
-    margin-left: 30px;
-    padding: 0 190px;
+    /* margin-left: 30px; */
+    padding: 0 10%;
+    background: rgb(245, 243, 243);
 
 }
 footer .footer-logo{
     width: 26%;
+    margin-top: 20px;
 }
 footer .footer-list-row{
     margin-top: 50px;
